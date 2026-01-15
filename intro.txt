@@ -1,0 +1,57 @@
+"Local Food"
+Hugo Lopes nº  30254
+Eduardo Rodrigues nº 22849
+Afonso Soares n º 27894
+
+A aplicação vai ter uma página/aba para:
+- login e registo
+- mapa com os produtores locais ou feiras perto do Utilizador
+- lista dos produtores locais
+- carrinho de compras com a encomenda a realizar
+- página de perfil do produtor Local
+- página de perfil do Utilizador
+- página de Recompensas Verdes, com as missões e nível de Utilizador para ter descontos na aplicação
+
+A aplicação terá de pedir ao Utilizador o serviço de Localização para poder usar a aplicação, e assim 
+ver quais os produtores ou feiras estão perto do Utilizador, segundo o mapa. 
+
+A aplicação terá de memorizar os dados do Utilizador. 
+
+A aplicação terá de ter serviço de pagamentos. 
+
+1. Notificações Push (Engajamento)
+Para uma aplicação móvel, as notificações são essenciais:
+Estado da Encomenda: Avisar o utilizador quando o produtor aceita o pedido ou quando está pronto para 
+recolha/entrega.
+Alertas de Proximidade: Notificar o utilizador quando ele passa perto de uma feira local que está a 
+decorrer nesse momento.
+Novas Recompensas: Avisar quando o utilizador ganha pontos suficientes para subir de nível ou 
+desbloquear um desconto.
+
+2. Sistema de Avaliações e Comentários (Social)
+Como mencionaram no perfil do fornecedor a existência de uma "avaliação geral", precisam de:
+Estrelas e Texto: Permitir que o utilizador deixe uma nota (1 a 5 estrelas) após a compra.
+Fotos Reais: Opção para os utilizadores subirem fotos dos produtos frescos que receberam, o que 
+aumenta a confiança na plataforma.
+
+3. Filtros e Categorias (Usabilidade)
+Na vossa "Lista de Produtores Locais", seria muito útil ter:
+Filtros por Categoria: Separar por "Frutas", "Legumes", "Vinhos", "Queijos" ou "Produtos Biológicos".
+Ordenação: Organizar a lista por "Mais Próximo", "Melhor Avaliado" ou "Mais Barato".
+
+4. Modo Offline Básico (Técnico)
+Como a aplicação depende do mapa e de produtores que podem estar em zonas rurais com menos rede:
+Cache de Dados: Memorizar os dados básicos dos produtores favoritos do utilizador para que ele possa 
+consultar a morada ou contacto mesmo sem internet.
+
+5. Painel para o Produtor (O outro lado da App)
+Embora o foco seja o utilizador, a aplicação precisa de uma interface (mesmo que simples) onde o 
+produtor local possa:
+Gerir Inventário: Adicionar ou remover produtos (ex: "hoje não há tomates").
+Ver Encomendas: Consultar a lista de pedidos pendentes para preparar as entregas.
+Organização no Trello e GitHub
+Agora que têm estes requisitos definidos, podem criar cartões específicos para estas funcionalidades 
+no Trello:
+Tarefa: "Configurar Firebase para Notificações".
+Tarefa: "Desenvolver sistema de filtros na lista de produtores".
+Tarefa: "Implementar lógica de avaliação (estrelas)".
